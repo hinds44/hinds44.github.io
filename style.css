@@ -684,16 +684,8 @@ nav.navbar-mrcms {
 
 /* ----- end cookie bar ----- */
 
-
-
-.container > .navbar-header > img.splat-logo{
-    height: auto;
-    width: 80px;
-    vertical-align: baseline;
-}
-
 #head {
-  background: url("header.jpg") no-repeat center top;
+  background: url("/header.jpg") no-repeat center top;
 Background-size: cover;
 
 }
