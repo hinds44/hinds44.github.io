@@ -685,8 +685,9 @@ nav.navbar-mrcms {
 /* ----- end cookie bar ----- */
 
 #head {
-  background: url("/header.jpg") no-repeat center top;
+  background: url("/header.jpg") no-repeat center center;
 Background-size: cover;
+    min-height: 650px;
 
 }
 
