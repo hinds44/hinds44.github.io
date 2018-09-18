@@ -33,7 +33,7 @@ hr.star-primary {
   border-top: solid 5px;
   text-align: center;
   max-width: 250px;
-  margin: 10px auto;
+  margin: 15px auto 20px;
 }
 hr.star-light {
   border-color: white;
@@ -82,7 +82,7 @@ header .intro-text .skills {
     padding-bottom: 50px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 4em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
