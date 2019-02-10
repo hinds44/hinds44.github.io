@@ -55,7 +55,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   background: #18BC9C;
-  color: black;
+  color: white;
 }
 header .container {
   padding-top: 150px;
@@ -685,8 +685,8 @@ nav.navbar-mrcms {
 /* ----- end cookie bar ----- */
 
 #head {
-  background: url("/planed.jpg") no-repeat center center;
-Background-size: cover;
+  background: url("/drummer.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 /* Admin styles end */
