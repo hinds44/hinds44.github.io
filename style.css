@@ -164,11 +164,14 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 30px;
 }
 section h2 {
   margin: 0;
   font-size: 2.5em;
+}
+section img {
+padding: 0;
 }
 section.success {
   background: #18BC9C;
