@@ -70,10 +70,10 @@ header .intro-text .name {
   font-family: "Aleo", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3em;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-size: 2em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
