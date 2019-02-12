@@ -174,7 +174,7 @@ nopadding {
 padding: 0 !important;
 margin: 0 !important;
 }
-section.success {
+.success {
   background: #18BC9C;
   color: white;
 }
@@ -691,6 +691,12 @@ nav.navbar-mrcms {
 #head {
   background: url("/drummer.jpg") no-repeat center center;
   background-size: cover;
+}
+
+#drummer {
+  background: url("/drummer.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 300px;
 }
 
 /* Admin styles end */
