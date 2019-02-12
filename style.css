@@ -696,7 +696,6 @@ nav.navbar-mrcms {
 #drummer {
   background: url("/drummer.jpg") no-repeat center center;
   background-size: cover;
-  min-height: 300px;
 }
 
 /* Admin styles end */
