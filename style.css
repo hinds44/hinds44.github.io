@@ -693,20 +693,8 @@ nav.navbar-mrcms {
 
 /* ----- end cookie bar ----- */
 
-#drumhead {
-  background: url("/drummer.jpg") no-repeat center center;
-  background-size: cover;
-}
-
 #head {
   background: url("/planed.jpeg") no-repeat center center;
   background-size: cover;
 }
-
-#drummer {
-  background: url("/drummer.jpg") no-repeat center center;
-  background-size: cover;
-  min-height: 400px;
-}
-
 /* Admin styles end */
