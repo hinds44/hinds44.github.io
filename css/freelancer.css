@@ -39,7 +39,7 @@ hr.star-dark {
 }
 
 hr.star-light:after,
-hr.star-primary,
+hr.star-primary:after,
 hr.star-dark:after {
   position: relative;
   top: -.8em;
@@ -66,7 +66,7 @@ hr.star-primary {
 
 hr.star-primary:after {
   color: #fff;
-  background-color: var(--brand2);
+  background-color: var(--brand1);
 }
 
 hr.star-dark {
