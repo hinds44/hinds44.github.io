@@ -3,6 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+ 
+:root{
+--updown: 3.5rem;
+}
 
 body {
   font-family: 'Lato';
@@ -62,7 +66,7 @@ hr.star-dark:after {
 }
 
 section {
-  padding: 4rem 0;
+  padding: var(--updown) 0;
 }
 
 section h2 {
@@ -98,7 +102,7 @@ section h2 {
 
 .scroll-to-top a {
   width: 3.5rem;
-  height: 3.5rem;
+  height: 3.2rem;
   background-color: rgba(33, 37, 41, 0.5);
   line-height: 3.1rem;
 }
@@ -173,8 +177,8 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(4rem + 72px);
-  padding-bottom: 4rem;
+  padding-top: calc(var(--updown) + 72px);
+  padding-bottom: var(--updown);
 }
 
 header.masthead h1 {
@@ -189,8 +193,8 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(4rem + 106px);
-    padding-bottom: 4rem;
+    padding-top: calc(var(--updown) + 106px);
+    padding-bottom: var(--updown);
   }
   header.masthead h1 {
     font-size: 4.75em;
@@ -325,8 +329,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: var(--updown);
+  padding-bottom: var(--updown);
   background-color: #2C3E50;
   color: #fff;
 }
