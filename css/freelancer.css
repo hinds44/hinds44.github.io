@@ -60,6 +60,15 @@ hr.star-light:after {
   background-color: var(--brand2);
 }
 
+hr.star-primary {
+  border-color: #fff;
+}
+
+hr.star-primary:after {
+  color: #fff;
+  background-color: var(--brand2);
+}
+
 hr.star-dark {
   border-color: var(--brand2);
 }
