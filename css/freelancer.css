@@ -6,6 +6,8 @@
  
 :root{
 --updown: 3.5rem;
+--brand1: #18BC9C;
+--brand2: #2C3E50;
 }
 
 body {
@@ -23,6 +25,7 @@ h6 {
 }
 
 hr.star-light,
+hr.star-primary,
 hr.star-dark {
   max-width: 15rem;
   padding: 0;
@@ -36,6 +39,7 @@ hr.star-dark {
 }
 
 hr.star-light:after,
+hr.star-primary,
 hr.star-dark:after {
   position: relative;
   top: -.8em;
@@ -53,15 +57,24 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: var(--brand2);
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: var(--brand2);
 }
 
 hr.star-dark:after {
-  color: #2C3E50;
+  color: var(--brand2);
+  background-color: white;
+}
+
+hr.star-primary {
+  border-color: var(--brand1);
+}
+
+hr.star-primary:after {
+  color: var(--brand1);
   background-color: white;
 }
 
@@ -128,7 +141,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: var(--brand1);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -136,7 +149,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: var(--brand1);
 }
 
 #mainNav .navbar-toggler {
@@ -161,11 +174,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: var(--brand1);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: var(--brand1);
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -321,7 +334,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: var(--brand1);
 }
 
 form .row:first-child .floating-label-form-group {
@@ -331,7 +344,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: var(--updown);
   padding-bottom: var(--updown);
-  background-color: #2C3E50;
+  background-color: var(--brand2);
   color: #fff;
 }
 
@@ -340,7 +353,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: var(--brand1);
 }
 
 a:focus, a:hover, a:active {
@@ -352,24 +365,24 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: var(--brand1) !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: var(--brand2) !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: var(--brand1) !important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: var(--brand2) !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: var(--brand1);
+  border-color: var(--brand1);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -378,8 +391,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-secondary {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: var(--brand2);
+  border-color: var(--brand2);
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
