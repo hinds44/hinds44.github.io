@@ -69,15 +69,6 @@ hr.star-dark:after {
   background-color: white;
 }
 
-hr.star-primary {
-  border-color: var(--brand1);
-}
-
-hr.star-primary:after {
-  color: var(--brand1);
-  background-color: white;
-}
-
 section {
   padding: var(--updown) 0;
 }
