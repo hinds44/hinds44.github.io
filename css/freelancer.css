@@ -45,7 +45,7 @@ hr.star-dark:after {
   top: -.8em;
   display: inline-block;
   padding: 0 0.25em;
-  content: '\f005';
+  content: '\f433';
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 2em;
@@ -190,7 +190,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(var(--updown) + 72px);
+  padding-top: calc(var(--updown) + 172px);
   padding-bottom: var(--updown);
 }
 
@@ -206,7 +206,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(var(--updown) + 106px);
+    padding-top: calc(var(--updown) + 206px);
     padding-bottom: var(--updown);
   }
   header.masthead h1 {
@@ -377,7 +377,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: #eee !important;
+  color: #333 !important;
 }
 
 .btn-primary {
@@ -398,4 +398,11 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+#header
+    {
+  background: url("/img/header.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
 }
