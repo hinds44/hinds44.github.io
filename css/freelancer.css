@@ -52,20 +52,20 @@ hr.star-dark:after {
 }
 
 hr.star-light {
-  border-color: #fff;
+  border-color: white;
 }
 
 hr.star-light:after {
-  color: #fff;
+  color: white;
   background-color: var(--brand2);
 }
 
 hr.star-primary {
-  border-color: #fff;
+  border-color: white;
 }
 
 hr.star-primary:after {
-  color: #fff;
+  color: white;
   background-color: var(--brand1);
 }
 
@@ -128,7 +128,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: white;
 }
 
 #mainNav .navbar-nav {
@@ -137,7 +137,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: white;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -145,7 +145,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: white;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -173,11 +173,11 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: white;
     background: var(--brand1);
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: white;
     background: var(--brand1);
   }
   #mainNav.navbar-shrink {
@@ -345,7 +345,7 @@ form .row:first-child .floating-label-form-group {
   padding-top: var(--updown);
   padding-bottom: var(--updown);
   background-color: var(--brand2);
-  color: #fff;
+  color: white;
 }
 
 .copyright {
