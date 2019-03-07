@@ -377,7 +377,7 @@ a:focus, a:hover, a:active {
 }
 
 .text-secondary {
-  color: black !important;
+  color: #eee !important;
 }
 
 .btn-primary {
