@@ -190,7 +190,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(var(--updown) + 172px);
+  padding-top: calc(var(--updown) + 72px);
   padding-bottom: var(--updown);
   max-height: 600px;
 }
@@ -207,7 +207,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(var(--updown) + 206px);
+    padding-top: calc(var(--updown) + 106px);
     padding-bottom: var(--updown);
   }
   header.masthead h1 {
