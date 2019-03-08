@@ -181,8 +181,8 @@ section h2 {
     background: var(--brand1);
   }
   #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
@@ -405,5 +405,4 @@ a:focus, a:hover, a:active {
     {
   background: url("/img/header.jpg") no-repeat center center;
   background-size: cover;
-  min-height: 400px;
 }
