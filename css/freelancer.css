@@ -355,6 +355,7 @@ form .row:first-child .floating-label-form-group {
 
 a {
   color: var(--brand1);
+  font-weight: bold;
 }
 
 a:focus, a:hover, a:active {
