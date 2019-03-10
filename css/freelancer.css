@@ -272,11 +272,14 @@ form .row:first-child .floating-label-form-group {
 a {
   color: var(--brand1);
   font-weight: bold;
-  text-decoration: underline;
 }
 
 a:focus, a:hover, a:active {
   color: #128f76;
+}
+
+a.inline {
+  text-decoration: underline;
 }
 
 .btn {
