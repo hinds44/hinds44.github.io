@@ -280,6 +280,7 @@ a:focus, a:hover, a:active {
 
 a.inline {
   text-decoration: underline;
+  font-weight: 500;
 }
 
 .btn {
