@@ -106,23 +106,9 @@ section h2 {
   line-height: 2rem;
 }
 
-.scroll-to-top {
-  z-index: 1042;
-  right: 1rem;
-  bottom: 1rem;
-  display: none;
-}
-
-.scroll-to-top a {
-  width: 3.5rem;
-  height: 3.2rem;
-  background-color: rgba(33, 37, 41, 0.5);
-  line-height: 3.1rem;
-}
-
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   font-weight: 700;
   font-family: 'Montserrat';
 }
