@@ -191,6 +191,12 @@ header.masthead h2 {
   font-family: 'Lato';
 }
 
+#header
+    {
+  background: url("/img/bball-dark.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(var(--updown) + 106px);
@@ -321,10 +327,4 @@ a.inline {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
-}
-
-#header
-    {
-  background: url("/img/bball-dark.jpg") no-repeat center center;
-  background-size: cover;
 }
