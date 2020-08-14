@@ -181,7 +181,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(var(--updown) + 72px);
+  padding-top: calc(var(--updown) + 62px);
   padding-bottom: var(--updown);
   max-height: 600px;
 }
