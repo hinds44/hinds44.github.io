@@ -5,7 +5,7 @@
  */
  
 :root{
---updown: 3.5rem;
+--updown: 3rem;
 --brand1: #ca0935; /*red*/
 --brand2: #1a182e; /*blue*/
 }
@@ -22,6 +22,10 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat';
+}
+.grey-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 hr.star-light,
@@ -327,4 +331,9 @@ a.inline {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }
