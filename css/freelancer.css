@@ -143,9 +143,15 @@ section h2 {
   color: var(--brand1);
 }
 
+/*#990728*/
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+}
+
+#mainNav .navbar-toggler:hover {
+  background: #990728;
 }
 
 @media (min-width: 992px) {
@@ -277,7 +283,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #000000;
 }
 
 a {
@@ -286,7 +292,7 @@ a {
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #ffffff;
 }
 
 a.inline {
@@ -320,8 +326,8 @@ a.inline {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: var(--brand2);
+  border-color: var(--brand2);
 }
 
 .btn-secondary {
