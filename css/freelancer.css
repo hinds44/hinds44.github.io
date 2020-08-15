@@ -326,8 +326,8 @@ a.inline {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: var(--brand2);
-  border-color: var(--brand2);
+  background-color: #990728;
+  border-color: #990728;
 }
 
 .btn-secondary {
