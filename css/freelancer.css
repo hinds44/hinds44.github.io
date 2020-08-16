@@ -23,6 +23,7 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat';
 }
+
 .grey-text {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -89,7 +90,6 @@ section {
 
 section h2 {
   font-size: 2.25rem;
-  line-height: 2rem;
 }
 
 @media (min-width: 992px) {
@@ -142,8 +142,6 @@ section h2 {
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: var(--brand1);
 }
-
-/*#990728*/
 
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -343,4 +341,34 @@ a.inline {
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+.fixtures + .fixtures{
+    padding-bottom: 0;
+}
+
+.fixtures{
+    background-color: var(--brand2);
+    padding: 1.5rem 0;   
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.score{
+    padding-top: 1rem;
+}
+
+.fixture + .fixture{
+    padding-bottom: 0;
+}
+
+.fixture{
+    background-color: var(--brand1);
+    padding: 1.5rem 0;   
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
 }
