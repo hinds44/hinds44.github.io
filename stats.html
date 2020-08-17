@@ -1,111 +1,113 @@
-    <html lang="en">
+<html lang="en">
 
     <head>
 
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-  <title>Tonbridge Baseball</title>
+        <title>Tonbridge Baseball</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
 
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+        <!-- Custom fonts for this template -->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <!-- Custom styles for this template -->
-  <link href="css/freelancer.css" rel="stylesheet">
+        <!-- Plugin CSS -->
+        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-</head>
-        
-        <body>
-  
-    <div class="container text-center my-4">
+        <!-- Custom styles for this template -->
+        <link href="css/freelancer.css" rel="stylesheet">
 
-    <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
+    </head>
 
-    <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/edit?usp=sharing" role="button" target="_blank">Click to see the source sheet</a>
+    <body>
 
-    <!-- Table  -->
-    <table class="table table-bordered table-striped" id="testTable">
-      <!-- Table head -->
-      <thead>
-        <tr>
-            <th>Name</th>
-            <th>Number</th>
-            <th>BA</th>
-            <th>OBP</th>
-            <th>Hits</th>
-            <th>Runs</th>
-            <th>Doubles</th>
-            <th>Triples</th>
-            <th>Home Runs</th>
-            <th>RBI</th>
-        </tr>
-      </thead>
-      <!-- Table head -->
+        <div class="container text-center my-4">
 
-      <!-- Table body -->
-      <tbody id="demo">
+            <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
 
-      
-      </tbody>
-      <!-- Table body -->
-    </table>
-    <!-- Table  -->
+            <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/edit?usp=sharing" role="button" target="_blank">Click to see the source sheet</a>
+        </div>
+        <!-- Table  -->
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped" id="testTable">
+                    <!-- Table head -->
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Number</th>
+                            <th>BA</th>
+                            <th>OBP</th>
+                            <th>Hits</th>
+                            <th>Runs</th>
+                            <th>Doubles</th>
+                            <th>Triples</th>
+                            <th>Home Runs</th>
+                            <th>RBI</th>
+                        </tr>
+                    </thead>
+                    <!-- Table head -->
 
-  </div>
-              <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                    <!-- Table body -->
+                    <tbody id="demo">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+                    </tbody>
+                    <!-- Table body -->
+                </table>
+                <!-- Table  -->
+            </div>
+        </div>
 
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.js"></script>
-            <script>    $.getJSON("https://spreadsheets.google.com/feeds/list/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/od6/public/values?alt=json", function (data) {
-        var sheetData = data.feed.entry;
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-        var i;
-        for (i = 0; i < sheetData.length; i++) {
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
 
-            var name = data.feed.entry[i]["gsx$name"]["$t"];
-            var jersey = data.feed.entry[i]["gsx$number"]["$t"];
-            var batting = data.feed.entry[i]["gsx$ba"]["$t"];
-            var onbase = data.feed.entry[i]["gsx$obp"]["$t"];
-            var hits = data.feed.entry[i]["gsx$hits"]["$t"];
-            var runs = data.feed.entry[i]["gsx$runs"]["$t"];
-            var doubles = data.feed.entry[i]["gsx$doubles"]["$t"];
-            var triples = data.feed.entry[i]["gsx$triples"]["$t"];
-            var homeruns = data.feed.entry[i]["gsx$homeruns"]["$t"];
-            var rbi = data.feed.entry[i]["gsx$rbi"]["$t"];
+        <!-- Custom scripts for this template -->
+        <script src="js/freelancer.js"></script>
+        <script>    $.getJSON("https://spreadsheets.google.com/feeds/list/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/od6/public/values?alt=json", function (data) {
+                var sheetData = data.feed.entry;
 
-            document.getElementById("demo").innerHTML +=("<tr>"+"<td>"+name+"</td>"+"<td>"+jersey+"</td>"+"<td>"+batting+"</td>"+"<td>"+onbase+"</td>"+"<td>"+hits+"</td>"+"<td>"+runs+"</td>"+"<td>"+doubles+"</td>"+"<td>"+triples+"</td>"+"<td>"+homeruns+"</td>"+"<td>"+rbi+"</td>"+"</tr>");
+                var i;
+                for (i = 0; i < sheetData.length; i++) {
 
-        }
-    });</script>
+                    var name = data.feed.entry[i]["gsx$name"]["$t"];
+                    var jersey = data.feed.entry[i]["gsx$number"]["$t"];
+                    var batting = data.feed.entry[i]["gsx$ba"]["$t"];
+                    var onbase = data.feed.entry[i]["gsx$obp"]["$t"];
+                    var hits = data.feed.entry[i]["gsx$hits"]["$t"];
+                    var runs = data.feed.entry[i]["gsx$runs"]["$t"];
+                    var doubles = data.feed.entry[i]["gsx$doubles"]["$t"];
+                    var triples = data.feed.entry[i]["gsx$triples"]["$t"];
+                    var homeruns = data.feed.entry[i]["gsx$homeruns"]["$t"];
+                    var rbi = data.feed.entry[i]["gsx$rbi"]["$t"];
 
-        </body>
-  
-  </html>
+                    document.getElementById("demo").innerHTML +=("<tr>"+"<td>"+name+"</td>"+"<td>"+jersey+"</td>"+"<td>"+batting+"</td>"+"<td>"+onbase+"</td>"+"<td>"+hits+"</td>"+"<td>"+runs+"</td>"+"<td>"+doubles+"</td>"+"<td>"+triples+"</td>"+"<td>"+homeruns+"</td>"+"<td>"+rbi+"</td>"+"</tr>");
+
+                }
+            });</script>
+
+    </body>
+
+</html>
