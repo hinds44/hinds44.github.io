@@ -274,10 +274,10 @@ form .row:first-child .floating-label-form-group {
 
 .footer {
     padding-top: calc(var(--updown) * 0.75);
-        padding-bottom: calc(var(--updown) * 0.75);
-        background-color: var(--brand2);
-        color: white;
-        }
+    padding-bottom: calc(var(--updown) * 0.75);
+    background-color: var(--brand2);
+    color: white;
+}
 
 .copyright {
     background-color: #000000;
