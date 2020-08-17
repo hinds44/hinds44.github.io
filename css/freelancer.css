@@ -5,7 +5,7 @@
 */
 
 :root{
-    --updown: 3rem;
+    --updown: 2.75rem;
     --brand1: #ca0935; /*red*/
     --brand2: #1a182e; /*blue*/
 }
@@ -185,9 +185,8 @@ section h2 {
 }
 
 header.masthead {
-    padding-top: calc(var(--updown) + 62px);
-    padding-bottom: var(--updown);
-    max-height: 600px;
+    padding-top: calc((var(--updown) * 2) + 62px);
+    padding-bottom: calc(var(--updown) * 2);
 }
 
 header.masthead h1 {
@@ -208,8 +207,8 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
     header.masthead {
-        padding-top: calc(var(--updown) + 106px);
-        padding-bottom: var(--updown);
+        padding-top: calc((var(--updown) * 2) + 106px);
+        padding-bottom: calc(var(--updown) * 2);
     }
     header.masthead h1 {
         font-size: 4.75em;
@@ -274,8 +273,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-    padding-top: var(--updown);
-    padding-bottom: var(--updown);
+    padding-top: calc((var(--updown) * 0.75);
+    padding-bottom: calc((var(--updown) * 0.75);
     background-color: var(--brand2);
     color: white;
 }
