@@ -83,9 +83,9 @@
         var i;
         for (i = 0; i < sheetData.length; i++) {
 
-            var position = data.feed.entry[i]["gsx$_cn6ca"]["$t"];
-            var name = data.feed.entry[i]["gsx$_cokwr"]["$t"];
-            var age = data.feed.entry[i]["gsx$_cpzh4"]["$t"];
+            var position = data.feed.entry[i]["gsx$pos"]["$t"];
+            var name = data.feed.entry[i]["gsx$name"]["$t"];
+            var age = data.feed.entry[i]["gsx$age"]["$t"];
 
             document.getElementById("demo").innerHTML += ("<tr>"+"<td>"+position+"</td>"+"<td>"+name+"</td>"+"<td>"+age+"</td>"+"</tr>");
 
