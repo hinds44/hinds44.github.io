@@ -46,9 +46,16 @@
       <!-- Table head -->
       <thead>
         <tr>
-          <th>Position</th>
-          <th>Name</th>
-          <th>Age</th>
+            <th>Name</th>
+            <th>Number</th>
+            <th>BA</th>
+            <th>OBP</th>
+            <th>Hits</th>
+            <th>Runs</th>
+            <th>Doubles</th>
+            <th>Triples</th>
+            <th>Home Runs</th>
+            <th>RBI</th>
         </tr>
       </thead>
       <!-- Table head -->
@@ -83,11 +90,18 @@
         var i;
         for (i = 0; i < sheetData.length; i++) {
 
-            var position = data.feed.entry[i]["gsx$pos"]["$t"];
             var name = data.feed.entry[i]["gsx$name"]["$t"];
-            var age = data.feed.entry[i]["gsx$age"]["$t"];
+            var jersey = data.feed.entry[i]["gsx$number"]["$t"];
+            var batting = data.feed.entry[i]["gsx$ba"]["$t"];
+            var onbase = data.feed.entry[i]["gsx$obp"]["$t"];
+            var hits = data.feed.entry[i]["gsx$hits"]["$t"];
+            var runs = data.feed.entry[i]["gsx$runs"]["$t"];
+            var doubles = data.feed.entry[i]["gsx$doubles"]["$t"];
+            var triples = data.feed.entry[i]["gsx$triples"]["$t"];
+            var homeruns = data.feed.entry[i]["gsx$homeruns"]["$t"];
+            var rbi = data.feed.entry[i]["gsx$rbi"]["$t"];
 
-            document.getElementById("demo").innerHTML += ("<tr>"+"<td>"+position+"</td>"+"<td>"+name+"</td>"+"<td>"+age+"</td>"+"</tr>");
+            document.getElementById("demo").innerHTML +=("<tr>"+"<td>"+name+"</td>"+"<td>"+jersey+"</td>"+"<td>"+batting+"</td>"+"<td>"+onbase+"</td>"+"<td>"+hits+"</td>"+"<td>"+runs+"</td>"+"<td>"+doubles+"</td>"+"<td>"+triples+"</td>"+"<td>"+homeruns+"</td>"+"<td>"+rbi+"</td>"+"</tr>");
 
         }
     });</script>
