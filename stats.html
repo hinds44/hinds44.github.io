@@ -32,21 +32,23 @@
   <link href="css/freelancer.css" rel="stylesheet">
 
 </head>
+        
+        <body>
   
-  <div class="container text-center my-4">
+    <div class="container text-center my-4">
 
     <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
 
-    <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1t2_HHLkibAybPORmXuDDEFEyetC3p7r1blQRpjzinXg/edit?usp=sharing" role="button" target="_blank">Click to see the source sheet</a>
+    <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/edit?usp=sharing" role="button" target="_blank">Click to see the source sheet</a>
 
     <!-- Table  -->
-    <table class="table table bordered table-striped" id="testTable">
+    <table class="table table-bordered table-striped" id="testTable">
       <!-- Table head -->
       <thead>
         <tr>
+          <th>Position</th>
           <th>Name</th>
           <th>Age</th>
-          <th>E-mail</th>
         </tr>
       </thead>
       <!-- Table head -->
@@ -61,5 +63,35 @@
     <!-- Table  -->
 
   </div>
+              <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.js"></script>
+            <script>    $.getJSON("https://spreadsheets.google.com/feeds/list/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/od6/public/values?alt=json", function (data) {
+        var sheetData = data.feed.entry;
+
+        var i;
+        for (i = 0; i < sheetData.length; i++) {
+
+            var position = data.feed.entry[i]['gsx$pos']['$t'];
+            var name = data.feed.entry[i]['gsx$name']['$t'];
+            var age = data.feed.entry[i]['gsx$age']['$t'];
+
+            document.getElementById('demo').innerHTML += ('<tr>'+'<td>'+name+'</td>'+'<td>'+age+'</td>'+'<td>'+email+'</td>'+'</tr>');
+
+        }
+    });</script>
+
+        </body>
   
   </html>
