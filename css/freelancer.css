@@ -185,8 +185,8 @@ section h2 {
 }
 
 header.masthead {
-    padding-top: calc((var(--updown) * 2) + 62px);
-    padding-bottom: calc(var(--updown) * 2);
+    padding-top: calc((var(--updown) * 1.5) + 62px);
+    padding-bottom: calc(var(--updown) * 1.5);
 }
 
 header.masthead h1 {
@@ -207,8 +207,8 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
     header.masthead {
-        padding-top: calc((var(--updown) * 2) + 106px);
-        padding-bottom: calc(var(--updown) * 2);
+        padding-top: calc((var(--updown) * 2.5) + 106px);
+        padding-bottom: calc(var(--updown) * 2.5);
     }
     header.masthead h1 {
         font-size: 4.75em;
