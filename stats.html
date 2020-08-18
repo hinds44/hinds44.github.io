@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
     <head>
@@ -33,44 +34,85 @@
 
     </head>
 
-    <body>
+    <body id="page-top">
 
-        <div class="container text-center my-4">
-
-            <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
-
-            <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/edit?usp=sharing" role="button" target="_blank">Click to see the source sheet</a>
-        </div>
-        <!-- Table  -->
-        <div class="container">
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped" id="testTable">
-                    <!-- Table head -->
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Number</th>
-                            <th>BA</th>
-                            <th>OBP</th>
-                            <th>Hits</th>
-                            <th>Runs</th>
-                            <th>Doubles</th>
-                            <th>Triples</th>
-                            <th>Home Runs</th>
-                            <th>RBI</th>
-                        </tr>
-                    </thead>
-                    <!-- Table head -->
-
-                    <!-- Table body -->
-                    <tbody id="demo">
-
-                    </tbody>
-                    <!-- Table body -->
-                </table>
-                <!-- Table  -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid d-block mx-auto img-responsive" src="img/wildcats-standard.png" alt="" style="max-width: 45px;"></a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase btn-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#about">About</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#team">Team</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="fixtures.html">Fixtures</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#stats">Stats</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#recruit">Recruitment</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
+
+        <section id="stats" class="masthead">
+            <div class="container">
+                <h2 class="text-center text-uppercase text-secondary mb-0">2020 Player Stats</h2>
+                <hr class="star-dark mb-5">
+            </div>
+
+            <!-- Table  -->
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped" id="testTable">
+                        <!-- Table head -->
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Number</th>
+                                <th>BA</th>
+                                <th>OBP</th>
+                                <th>Hits</th>
+                                <th>Runs</th>
+                                <th>Doubles</th>
+                                <th>Triples</th>
+                                <th>Home Runs</th>
+                                <th>RBI</th>
+                            </tr>
+                        </thead>
+                        <!-- Table head -->
+
+                        <!-- Table body -->
+                        <tbody id="demo1">
+
+                        </tbody>
+                        <!-- Table body -->
+                    </table>
+                    <!-- Table  -->
+                </div>
+            </div>
+        </section>
+
+        <section class="container col-8 text-center pt-0 mx-auto">
+
+            <p class="font-weight-bold">For even more stats, use the button below</p>
+
+            <a class="btn btn-primary btn-xl btn-block" href="https://docs.google.com/spreadsheets/d/1i4V9kUYvh7mLpc5WslIBjGbf0FNxPkn_ONnfQw3jmbw/edit?usp=sharing" role="button" target="_blank">Nerdier Stats</a>
+        </section>
 
         <!-- Bootstrap core JavaScript -->
         <script src="vendor/jquery/jquery.min.js"></script>
@@ -103,7 +145,7 @@
                     var homeruns = data.feed.entry[i]["gsx$homeruns"]["$t"];
                     var rbi = data.feed.entry[i]["gsx$rbi"]["$t"];
 
-                    document.getElementById("demo").innerHTML +=("<tr>"+"<td>"+name+"</td>"+"<td>"+jersey+"</td>"+"<td>"+batting+"</td>"+"<td>"+onbase+"</td>"+"<td>"+hits+"</td>"+"<td>"+runs+"</td>"+"<td>"+doubles+"</td>"+"<td>"+triples+"</td>"+"<td>"+homeruns+"</td>"+"<td>"+rbi+"</td>"+"</tr>");
+                    document.getElementById("demo1").innerHTML +=("<tr>"+"<td>"+name+"</td>"+"<td>"+jersey+"</td>"+"<td>"+batting+"</td>"+"<td>"+onbase+"</td>"+"<td>"+hits+"</td>"+"<td>"+runs+"</td>"+"<td>"+doubles+"</td>"+"<td>"+triples+"</td>"+"<td>"+homeruns+"</td>"+"<td>"+rbi+"</td>"+"</tr>");
 
                 }
             });</script>
