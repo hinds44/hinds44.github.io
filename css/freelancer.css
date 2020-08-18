@@ -375,3 +375,7 @@ section.above{
     background: url("http://masterandjack.co.uk/img/above.jpg") no-repeat center center;
     background-size: cover;
 }
+section.diamond{
+    background: url("http://masterandjack.co.uk/img/diamond.jpg") no-repeat center center;
+    background-size: cover;
+}
