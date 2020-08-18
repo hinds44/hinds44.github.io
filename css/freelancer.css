@@ -184,6 +184,10 @@ section h2 {
     }
 }
 
+section.masthead {
+    padding-top: calc(var(--updown) + 104px);
+}
+
 header.masthead {
     padding-top: calc((var(--updown) * 1.5) + 62px);
     padding-bottom: calc(var(--updown) * 1.5);
