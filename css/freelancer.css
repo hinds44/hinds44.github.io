@@ -30,6 +30,10 @@ h6 {
     margin-bottom: 0;
 }
 
+a.grey-text:focus, a.grey-text:hover, a.grey-text:active{
+    color: var(--brand2);
+}
+
 hr.star-light,
 hr.star-primary,
 hr.star-dark {
