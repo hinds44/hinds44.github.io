@@ -354,6 +354,11 @@ a.inline {
     height: auto;
 }
 
+.max-bbo-img {
+	max-width: 250px;
+	max-height: 250px;
+}
+
 .fixtures + .fixtures{
     padding-bottom: 0;
 }
