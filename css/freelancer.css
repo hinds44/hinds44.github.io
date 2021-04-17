@@ -30,7 +30,9 @@ h6 {
     margin-bottom: 0;
 }
 
-a.grey-text:focus, a.grey-text:hover, a.grey-text:active{
+a.grey-text:focus,
+a.grey-text:hover,
+a.grey-text:active{
     color: var(--brand2);
 }
 
@@ -354,11 +356,6 @@ a.inline {
     height: auto;
 }
 
-.max-bbo-img {
-	max-width: 250px;
-	max-height: 250px;
-}
-
 .fixtures + .fixtures{
     padding-bottom: 0;
 }
@@ -395,4 +392,9 @@ section.above{
 section.diamond{
     background: url("http://masterandjack.co.uk/img/diamond.jpg") no-repeat center center;
     background-size: cover;
+}
+
+.max-bbo-img {
+	max-width: 100%;
+	max-height: 200px;
 }
