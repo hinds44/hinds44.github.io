@@ -261,8 +261,6 @@ body {
     margin: 0;
     font-size: 0.85em;
     line-height: 1.764705882em;
-    vertical-align: middle;
-    vertical-align: baseline;
     -webkit-transition: top 0.3s ease,opacity 0.3s ease;
     -moz-transition: top 0.3s ease,opacity 0.3s ease;
     -ms-transition: top 0.3s ease,opacity 0.3s ease;
