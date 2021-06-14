@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 :root{
   --updown: 2.75rem;
@@ -7,14 +8,14 @@
 }
 
 body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
   }
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
   p.small {
-    font-size: 16px;
+    font-size: 14px;
   }
   a,
   a:hover,
@@ -40,7 +41,7 @@ body {
     border-top: solid 2px;
     text-align: center;
     max-width: 250px;
-    margin: 10px auto 15px;
+    margin: 14px auto 25px;
   }
   hr.star-light {
     border-color: white;
@@ -50,11 +51,11 @@ body {
     color: white;
   }
   hr.star-primary {
-    border-color: #2C3E50;
+    border-color: var(--rose);
   }
   hr.star-primary:after {
     background-color: white;
-    color: #2C3E50;
+    color: var(--rose);
   }
   .img-centered {
     margin: 0 auto;
@@ -65,7 +66,7 @@ body {
     color: white;
   }
   header .container {
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 25px;
   }
   header img {
@@ -77,7 +78,7 @@ body {
     font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 3em;
+    font-size: 6em;
   }
   header .intro-text .wellbeing {
     font-size: 2em;
@@ -85,18 +86,18 @@ body {
   }
   @media (min-width: 768px) {
     header .container {
-      padding-top: 200px;
+      padding-top: 100px;
       padding-bottom: 50px;
     }
     header .intro-text .name {
-      font-size: 4em;
+      font-size: 7em;
     }
     header .intro-text .wellbeing {
       font-size: 1.75em;
     }
   }
   .navbar-custom {
-    background: var(--green);
+    background: white;
     font-family: "EB Garamond", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: capitalize;
     font-weight: 400;
@@ -106,30 +107,29 @@ body {
     outline: none;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: var(--rose);
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus,
   .navbar-custom .navbar-brand:active,
   .navbar-custom .navbar-brand.active {
-    color: white;
+    color: var(--rose);
   }
   .navbar-custom .navbar-nav {
     letter-spacing: 1px;
   }
   .navbar-custom .navbar-nav li a {
-    color: white;
+    color: var(--rose);
   }
   .navbar-custom .navbar-nav li a:hover {
     color: var(--rose);
-    outline: none;
+    outline: var(--rose);
   }
   .navbar-custom .navbar-nav li a:focus,
   .navbar-custom .navbar-nav li a:active {
-    color: white;
+    color: var(--rose);
   }
   .navbar-custom .navbar-nav li.active a {
-    color: white;
     color: var(--rose);
   }
   .navbar-custom .navbar-nav li.active a:hover,
@@ -139,10 +139,11 @@ body {
     background: var(--rose);
   }
   .navbar-custom .navbar-toggle {
-    color: white;
+    color: var(--rose);
     text-transform: capitalize;
     font-size: 10px;
-    border-color: white;
+    border-color: var(--rose);
+    border-width: 2px;
   }
   .navbar-custom .navbar-toggle:hover,
   .navbar-custom .navbar-toggle:focus {
@@ -320,7 +321,7 @@ body {
   .btn-outline:focus,
   .btn-outline:active,
   .btn-outline.active {
-    color: #18BC9C;
+    color: var(--green);
     background: white;
     border: solid 2px white;
   }
@@ -692,20 +693,8 @@ body {
   /* ----- end cookie bar ----- */
   
   #wellbeingHead {
-    background: var(--rose);
+    background: var(--green);
     background-size: cover;
-  }
-  
-  #head {
-    background: url("/planed.jpeg") no-repeat center center;
-    background-size: cover;
-  }
-  
-  #drummer {
-    background: url("/drummer.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 250px;
-  }
-  
+  }  
   /* Admin styles end */
   
